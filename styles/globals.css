@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: #0d224e;
+}
+html {
+  width: 100vw;
+}
+.gborder {
+  border-image: linear-gradient(to right, #4a86ffaa, #ffffffaa, #ef3959aa) 30;
+  border-width: 4px;
+  border-style: solid;
+}
